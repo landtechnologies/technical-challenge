@@ -19,6 +19,6 @@ This should contain:
 - Compomises / trade-offs / assumptions made. How did you cut scope, and what would you do differently given more time?
 - Any other project code you would like to show us
 
-## How we assess
+## How we assess your work
 
 Your solution will be reviewed by our engineering team, taking into account your experience level and role. If you come in for an on-site interview please be ready to talk to us about your code, the decisions you made, and how you solved the problem.

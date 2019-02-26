@@ -1,6 +1,7 @@
 # Challenge: Sold Price Map
 
 ## Problem 1
+
 You have been given a [set of data points](sold-price-data.txt), with each item taking the following form:
 
 ```
@@ -11,16 +12,20 @@ where `0 <= X < 100` and `0 <= Y < 100`, and `10000 < P < 10000000`.
 `X` and `Y` represent the coordinates of a house which has been sold, and `P` is the price in which it was sold. For example, the point "`5 10 100000`" would be interpreted as a house sold for £100,000 at the point `(5, 10)`.
 
 Using this data plot each point on a grid. The points should be filled with a colour representing how expensive a house was in relation to other houses. The choice of colour is up to you, however, you should use a different colour for each of the following groups:
-  - 0% - 5%
-  - 5% - 25%
-  - 25% - 75%
-  - 75% - 95%
-  - 95% - 100%
+
+- 0% - 5%
+- 5% - 25%
+- 25% - 75%
+- 75% - 95%
+- 95% - 100%
 
 For back-end or terminal solutions, how you represent colour for each point is up to you.
 
 ## Technical specification
+
 Your system architecture should be split between a back-end and a web front-end, for instance, providing a JSON in/out RESTful API. Feel free to use any other technologies provided that the general client/service architecture is respected.
+
+There is no restriction on the technology stack you should use, however bear in mind that we use mostly JavaScript (browser and Node.js), Python, and Docker. If in doubt, keep it simple - we like simplicity!
 
 Choose **one** of the following flavours that best suits the role you are applying for:
 

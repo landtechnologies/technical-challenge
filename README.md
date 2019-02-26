@@ -14,7 +14,7 @@ This should contain:
 - Statement of the problem, and proposed solution
 - The type of solution (front-end, back-end, full stack)
 - A link to the running application (if applicable).
-- Instructions on how to run the application locally
+- Instructions on how to run the application and/or tests locally
 - Technical decisions (both code and architecture)
 - Compomises / trade-offs / assumptions made. How did you cut scope, and what would you do differently given more time?
 - Any other project code you would like to show us

@@ -2,22 +2,22 @@
 
 The coding challenge is optional if you have some code that you're particularly proud of, and able to share with us. Otherwise, please see [the challenge specification](sold-price-map.md) for instructions.
 
-Please aim to spend no more than 2 hours on the challenge. If you do spend a bit more time, make sure to note how long in your submitted readme. How you manage the scope of the problem is part of the challenge, so don't be afraid to reduce features.
+## Guidelines
 
-## Submission guidelines
+- Aim to spend **no more than 2 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable product instead of an all-the-bells-and-whistles solution)
+- We like simplicity, 'less is more'
+- We like tests
+- We like clean, concise, understandable documentation (a `README.md` is sufficient). Remember 'less is more', but feel free to include:
+  - A statement of the problem and proposed solution
+  - The type of solution (front-end, back-end, full stack)
+  - A link to the running application
+  - How to run the application and/or tests
+  - Technical decisions you made (both code and architecture)
+  - Compromises / trade-offs / assumptions
+  - Any other project code you would like to show us
+- We would like to be able to run, or see it running (hint - simple readme instructions to get it running, or Docker or hosting etc...)
 
-Please design, test, document and deploy your code as if it were going into production, then send us a link to the hosted repository and live demo if you can.
-
-Whether it's your own code or a solution to our exercise, you should include a `README.md` in the root of your repository.
-This should contain:
-
-- Statement of the problem, and proposed solution
-- The type of solution (front-end, back-end, full stack)
-- A link to the running application (if applicable).
-- Instructions on how to run the application and/or tests locally
-- Technical decisions (both code and architecture)
-- Compomises / trade-offs / assumptions made. How did you cut scope, and what would you do differently given more time?
-- Any other project code you would like to show us
+Please design, test, and document your code as if it were going into production then send us a link to the hosted repository.
 
 ## How we assess your work
 

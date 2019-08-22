@@ -35,6 +35,6 @@ There is no restriction on the technology stack you should use, however bear in 
 Choose **one** of the following flavours that best suits the role you are applying for:
 
 1. **Full stack**: include both front-end and back-end implementation.
-1. **Back-end**: include a minimal front-end (e.g. a static view or API docs). Write, document and test your API as if it will be used by other services.
-1. **Front-end**: include a minimal back-end, or use the sample data included directly. Focus on making the interface as polished as possible.
+1. **Backend**: include a minimal front-end (e.g. a static view or API docs). Write, document and test your API as if it will be used by other services.
+1. **Frontend**: include a minimal back-end, or use the sample data included directly. Focus on making the interface as polished as possible.
 1. **Junior**: As much as you feel confident with - a terminal only solution is perfectly acceptable.

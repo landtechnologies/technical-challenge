@@ -16,8 +16,7 @@ We'd like to import the data as part of a regular, repeatable, automated data pi
 ## Scope
 
 - We have AWS resources and a Kubernetes cluster (including an ELK stack and Prometheus) at our disposal (can be included as part of your decisions and solutions)
-- The data changes/updates every quarter
-- The data may increase by 30% each quarter
+- The data changes/updates every quarter and may increase in size
 - For each EPC entry we have to call an external API with the `ADDRESS` column to get a lat/lng. This API isn't provided nor do you need to code for it, but do be aware that the response time is 250ms for a single request when designing your solution
 
 ## Requirements
@@ -26,7 +25,6 @@ We'd like to see how you would approach this problem, from getting the data to p
 
 - A proof of concept, some code/execution and explanation/diagrams etc...
 - What tools/resources you would use?
-- How you would measure and track progress of the import?
 - How you would scale the import?
 - How often would you run the import?
 - How would you know when the import has failed?
@@ -37,7 +35,6 @@ Here are some guidelines to things we look for, none are mandatory:
 
 - We would like be able to run part/some of the code ourselves
 - We like automation (hint - even the downloading of the zip)
-- We like fail-fast, fast-feedback systems (hint - metrics, alerts, logging)
 - We like tests
 - We like shell, python, docker
 - We like clear, concise documentation

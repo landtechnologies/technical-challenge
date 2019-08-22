@@ -1,6 +1,6 @@
 # Challenge: Sold Price Map
 
-## Problem 1
+## Problem
 
 You have been given a [set of data points](sold-price-data.txt), with each item taking the following form:
 

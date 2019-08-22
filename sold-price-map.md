@@ -8,7 +8,12 @@ You have been given a [set of data points](sold-price-data.txt), with each item 
 X Y P
 ```
 
-where `0 <= X < 100` and `0 <= Y < 100`, and `10000 < P < 10000000`.
+Where:
+
+- `0 <= X < 100`
+- `0 <= Y < 100`
+- `10000 < P < 10000000`
+
 `X` and `Y` represent the coordinates of a house which has been sold, and `P` is the price in which it was sold. For example, the point "`5 10 100000`" would be interpreted as a house sold for £100,000 at the point `(5, 10)`.
 
 Using this data plot each point on a grid. The points should be filled with a colour representing how expensive a house was in relation to other houses. The choice of colour is up to you, however, you should use a different colour for each of the following groups:

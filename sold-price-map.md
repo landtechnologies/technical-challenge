@@ -25,7 +25,7 @@ For back-end or terminal solutions, how you represent colour for each point is u
 
 Your system architecture should be split between a back-end and a web front-end, for instance, providing a JSON in/out RESTful API. Feel free to use any other technologies provided that the general client/service architecture is respected.
 
-There is no restriction on the technology stack you should use, however bear in mind that we use mostly JavaScript (browser and Node.js), Python, and Docker. If in doubt, keep it simple - we like simplicity!
+There is no restriction on the technology stack you should use, however bear in mind that we use mostly JavaScript (browser and Node.js), Python, Shell and Docker. If in doubt, keep it simple - we like simplicity!
 
 Choose **one** of the following flavours that best suits the role you are applying for:
 

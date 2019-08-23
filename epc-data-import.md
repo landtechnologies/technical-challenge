@@ -2,6 +2,7 @@
 
 ## Getting Started
 
+- This problem uses real data that we already import into our application regularly
 - Register a user at [epc.opendatacommunities.org](https://epc.opendatacommunities.org/#register) so that you can access the EPC data
 - This challenge is concerned with the "Domestic EPC". There is a downloadable zip (~3Gb+) for around 18,000,000 EPC records.
 
@@ -17,7 +18,7 @@ We'd like to import the data as part of a regular, repeatable, automated data pi
 
 - We have AWS resources and a Kubernetes cluster (including an ELK stack and Prometheus) at our disposal (can be included as part of your decisions and solutions)
 - The data changes/updates every quarter and may increase in size
-- For each EPC entry we have to call an external API with the `ADDRESS` column to get a lat/lng. This API isn't provided nor do you need to code for it, but do be aware that the response time is 250ms for a single request when designing your solution
+- For each EPC entry we have to call an external API with the `ADDRESS` column to get a lat/lng. This API isn't provided nor do you need to code for it, but do be aware that the response time is 250ms for a single request when designing your solution. You can assume the API can happily handle a hundreds of requests a second.
 
 ## Requirements
 

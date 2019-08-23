@@ -1,15 +1,18 @@
 # Land Technologies Technical Challenge
 
-The coding challenge is optional if you have some code that you're particularly proud of, and able to share with us. Otherwise, please see [the challenge specification](sold-price-map.md) for instructions.
+The coding challenge is optional if you have some code that you're particularly proud of and able to share with us. Otherwise the challenges are below.
+
+- [Sold Price Map](sold-price-map.md) - orientated towards Full Stack/Backend/Frontend/Junior Engineers
+- [EPC Data Import](epc-data-import.md) - orientated towards Data Engineers
 
 ## Guidelines
 
-- Aim to spend **no more than 2 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable product instead of an all-the-bells-and-whistles solution)
-- We like simplicity, 'less is more'
+- Aim to spend **no more than 2 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable solution instead of an "all-the-bells-and-whistles" solution)
+- We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
+- We like simplicity... "less is more"
 - We like tests
-- We like clean, concise, understandable documentation (a `README.md` is sufficient). Remember 'less is more', but feel free to include:
+- We like clean, concise, understandable documentation (a `README.md` is sufficient). Remember "less is more", examples of things you may choose to include:
   - A statement of the problem and proposed solution
-  - The type of solution (front-end, back-end, full stack)
   - A link to the running application
   - How to run the application and/or tests
   - Technical decisions you made (both code and architecture)

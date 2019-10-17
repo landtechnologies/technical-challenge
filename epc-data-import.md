@@ -26,8 +26,9 @@ We'd like to see how you would approach this problem, from getting the data to p
 
 - A proof of concept, some code/execution and explanation/diagrams etc...
 - What tools/resources you would use?
-- How you would scale the import?
-- How often would you run the import?
+- How would you treat/manage the import as part of your operational workload
+- How you would scale the import if it grew massively in size?
+- How often would you run the import? How fast is fast-enough?
 - How would you know when the import has failed?
 
 ## Guidelines

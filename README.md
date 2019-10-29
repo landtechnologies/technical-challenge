@@ -7,7 +7,7 @@ The coding challenge is optional if you have some code that you're particularly 
 
 ## Guidelines
 
-- Aim to spend **no more than 2 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable solution instead of an "all-the-bells-and-whistles" solution)
+- Aim to spend **no more than 3 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable solution instead of an "all-the-bells-and-whistles" solution)
 - We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
 - We like simplicity... "less is more"
 - We like tests

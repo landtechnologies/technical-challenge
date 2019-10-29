@@ -22,8 +22,8 @@ Please design, test, and document your code as if it were going into production 
 
 The coding challenge is optional if you have some code that you're particularly proud of and able to share with us. Otherwise the challenges are below.
 
-- [Sold Price Map](sold-price-map.md) - orientated towards Full Stack/Backend/Frontend/Junior Engineers
-- [EPC Data Import](epc-data-import.md) - orientated towards Data Engineers
+- [Sold Price Map](sold-price-map.md) - orientated towards Full Stack/Backend/Frontend Engineers
+- [EPC Data Import](epc-data-import.md) - orientated towards Data/Backend Engineers
 
 ## How we assess your work
 

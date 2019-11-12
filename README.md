@@ -4,9 +4,9 @@
 
 - Aim to spend **no more than 3 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable solution instead of an "all-the-bells-and-whistles" solution)
 - We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
-- We like simplicity... "less is more"
-- We like elegant solutions
-- We like tests
+- We value simplicity... "less is more"
+- We value elegant solutions
+- We _really_ value tests (especially test-driven code)
 - We like clean, concise, understandable documentation (a `README.md` is sufficient) as an entry point to the solution. Remember "less is more", examples of things you may choose to include:
   - A statement of the problem and proposed solution
   - A link to the running application

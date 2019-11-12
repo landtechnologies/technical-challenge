@@ -6,8 +6,8 @@
 - We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
 - We value simplicity... "less is more"
 - We value elegant solutions
-- We _really_ value tests (especially test-driven code)
-- We like clean, concise, understandable documentation (a `README.md` is sufficient) as an entry point to the solution. Remember "less is more", examples of things you may choose to include:
+- We __*really*__ value tests (especially test-driven code)
+- We value clean, concise, understandable documentation (a `README.md` is sufficient) as an entry point to the solution. Remember "less is more", examples of things you may choose to include:
   - A statement of the problem and proposed solution
   - A link to the running application
   - How to run the application and/or tests

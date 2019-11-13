@@ -16,7 +16,7 @@ We'd like to import the data as part of a regular, repeatable, automated data pi
 
 ## Scope
 
-- We have AWS resources and a Kubernetes cluster (including an ELK stack and Prometheus) at our disposal (can be included as part of your decisions and solutions)
+- We have AWS resources and a Kubernetes cluster (including an ELK stack and Prometheus) at our disposal (can be included as part of your decisions and solutions). Keep in mind we're heavily influenced by DevOps principles and practices. 
 - The data changes/updates every quarter and may increase in size
 - For each EPC entry we have to call an external API with the `ADDRESS` column to get a lat/lng. This API isn't provided nor do you need to code for it, but do be aware that the response time is 250ms for a single request when designing your solution. You can assume the API can happily handle a hundreds of requests a second.
 
@@ -35,13 +35,14 @@ We'd like to see how you would approach this problem, from getting the data to p
 
 Here are some guidelines to things we look for, none are mandatory:
 
-- We would like be able to run part/some of the code ourselves
+- We would like be able to run part/some of the code locally
+- We may or may not have dependencies installed on our laptops
 - We like automation (hint - even the downloading of the zip)
-- We like tests
+- We __*really*__ like tests and validation
 - We like shell, python, docker
 - We like clear, concise documentation
 - We like simplicity... less is more
 
-We don't expect everything to be included in code. Aspects of your solution can be described using whatever means you feel best gets the design across (a picture is a 1,000 words etc...)
+We don't expect everything to be included in code. Aspects of your solution (such as scaling) can be described using whatever means you feel best gets the design across (a picture is a 1,000 words etc...)
 
-There is no restriction on the technology stack you choose to use, however bear in mind that we use mostly work in node.js, python, shell and docker. If in doubt, keep it simple - we like simplicity!
+There is no restriction on the technology stack you choose to use, however bear in mind that we use mostly work in node.js, python, shell and docker, and we're heavily influenced by DevOps principles. If in doubt, keep it simple - we like simplicity!

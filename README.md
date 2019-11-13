@@ -6,7 +6,7 @@
 - We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
 - We value simplicity... "less is more"
 - We value elegant solutions
-- We __*really*__ value tests (especially test-driven code as it's central to how we work!)
+- We __*really*__ value tests (especially test-driven code as it is central to how we work!)
 - We value clean, concise, understandable documentation (a `README.md` is sufficient) as an entry point to the solution. Remember "less is more", examples of things you may choose to include:
   - A statement of the problem and proposed solution
   - A link to the running application
@@ -14,7 +14,7 @@
   - Technical decisions you made (both code and architecture)
   - Compromises / trade-offs / assumptions
   - Any other project code you would like to show us
-- We would like to be able to run the code (as if developing locally (hint - simple readme instructions to get it running, or Docker or hosting etc...)
+- We would like to be able to run the code (as if developing locally (hint - simple readme instructions to get it running, or even better... Docker or hosting etc...)
 
 Please design, test, and document your code as if it were going into production then send us a link to the hosted repository.
 

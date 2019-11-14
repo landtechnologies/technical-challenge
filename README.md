@@ -9,11 +9,9 @@
 - We __*really*__ value tests (especially test-driven code as it is central to how we work!)
 - We value clean, concise, understandable documentation (a `README.md` is sufficient) as part of communication and an entry point to the solution. Remember "less is more", examples of things you may choose to include:
   - A statement of the problem and proposed solution
-  - A link to the running application
   - How to run the application and/or tests
   - Technical decisions you made (both code and architecture)
   - Compromises / trade-offs / assumptions
-  - Any other project code you would like to show us
 - We would like to be able to run the code (as if developing locally (hint - simple readme instructions to get it running, or even better... Docker or hosting etc...)
 
 Please design, test, and document your code as if it were going into production then send us a link to the hosted repository.

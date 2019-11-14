@@ -12,7 +12,8 @@
   - How to run the application and/or tests
   - Technical decisions you made (both code and architecture)
   - Compromises / trade-offs / assumptions
-- We would like to be able to run the code (as if developing locally (hint - simple readme instructions to get it running, or even better... Docker or hosting etc...)
+- We would like to be able to run the code as if developing locally
+- Assume we may not have certain dependencies installed on our laptops!
 
 Please design, test, and document your code as if it were going into production then send us a link to the hosted repository.
 

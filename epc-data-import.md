@@ -25,10 +25,10 @@ We'd like to import the data as part of a regular, repeatable, automated data pi
 We'd like to see how you would approach this problem, from getting the data to putting it into a database. As part of this we would expect to see:
 
 - A proof of concept, some code/execution and explanation/diagrams etc...
-- What tools/resources you would use?
+- What tools/resources you would use
 - How would you treat/manage the import as part of your operational workload
-- How you would scale the import if it grew massively in size?
-- How often would you run the import? How fast is fast-enough?
+- How you would scale the import if it grew massively in size? Say from 8Gb to 100Gb
+- How often would you run the import? What is an acceptable completion time?
 - How would you know when the import has failed?
 
 ## Guidelines
@@ -36,12 +36,12 @@ We'd like to see how you would approach this problem, from getting the data to p
 Here are some guidelines to things we look for, none are mandatory:
 
 - We would like be able to run part/some of the code locally
-- We may or may not have dependencies installed on our laptops
-- We like automation (hint - even the downloading of the zip)
+- We may or may not have dependencies installed on our laptops (better to assume to do not)
+- We value automation (even the downloading of the zip)
 - We __*really*__ like tests and validation
 - We like shell, python, docker
-- We like clear, concise documentation
-- We like simplicity... less is more
+- We value clear, concise documentation
+- We value simplicity... less is more
 
 We don't expect everything to be included in code. Aspects of your solution (such as scaling) can be described using whatever means you feel best gets the design across (a picture is a 1,000 words etc...)
 

@@ -10,6 +10,7 @@
 - We value clean, concise, understandable documentation (a `README.md` is sufficient) as part of communication and an entry point to the solution. Remember "less is more".
 - We would like to be able to run the code as if developing locally
 - Assume we may not have certain dependencies installed on our laptops!
+- If you have any questions please get in touch! engineering@land.tech
 
 There is no restriction on the technology stack you choose to use, however bear in mind that we use mostly work in node.js, python, shell and docker. If in doubt, keep it simple - we like simplicity!
 

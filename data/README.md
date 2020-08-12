@@ -2,7 +2,7 @@
 
 ## Guidelines
 
-- Aim to spend **no more than 2 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable solution instead of an "all-the-bells-and-whistles" solution). We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
+- Aim to spend **no more than 3 hours** on the challenge (hint - we're looking for informed decisions around scope, and a minimum viable solution instead of an "all-the-bells-and-whistles" solution). We are wary of your personal time and account for this. We would rather see de-scoping than hours and hours of extra work!
 - Our [Engineering Principles](https://engineering.land.tech/principles)... to give context as to how we work
 - We value simplicity... "less is more"
 - We value elegant solutions and clean code

@@ -2,7 +2,7 @@
 
 ## Guidelines
 
-- Aim to spend **no more than 3 hours** on the challenge. We are wary of your personal time and account for this. We would rather see de-scoping and reasoning than hours of extra work!
+- Aim to spend **no more than 2 hours** on the challenge. We are wary of your personal time and account for this. We would rather see de-scoping and reasoning than hours of extra work!
 - Our [Engineering Principles](https://engineering.land.tech/principles)... to give context as to how we work
 - We value simplicity... "less is more"
 - We value elegant solutions and clean code

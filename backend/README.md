@@ -55,7 +55,8 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 ## Requirements
 
-- A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` and returns an array `number[]` of parcels, each array entry representing the permimeter for a parcel.
-- We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency such as O(n) solutions.
+- A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` of `x,y` points and returns an array `number[]` of parcels, each array entry representing the permimeter for a parcel.
+- Feel free to improve the signature's understandability / readability in terms of types but try to retain the underlying concept of the signature.
+- We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency (big O notation).
 - We'd like to see clean, readable, understandable code with tests.
 - We'd like to see a README as a point of entry to the problem providing us with any context or details your deem helpful

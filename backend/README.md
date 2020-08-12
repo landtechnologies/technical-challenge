@@ -1,4 +1,4 @@
-# Challenge: Number Of Land Parcels
+# Challenge: Land Parcels
 
 ## Guidelines
 
@@ -15,45 +15,47 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 ## The Problem
 
-- We render parcels of land on map tiles
-- A map tile is a multi-dimensional array of 0's and 1's
-- A parcel of land is a collection of 1's that are adjacent to one another (excluding diagonally). The below simplisitic example has 4 parcels of land:
+- We render parcels of land on a map
+- This is done by rendering points provided as `x,y` coordinates via an array in the form of:
 
   ```text
-  0 0 1 1 1 0
-  0 0 0 0 0 0
-  0 1 1 1 1 0
-  0 1 1 0 1 0
-  0 0 0 1 0 0
-  1 0 0 1 1 0
+  ["x1,y1", "x2,y2"]
   ```
 
-- Given a random size of map tile, we'd like to know:
-  - How many parcels of land are on it
-  - The average size of a parcel of land (ie `1 1` == 2, `1 1 1` == 3)
+- Where `0 <= x < 100` and `0 <= y < 100`
+- A parcel of land is `>=1` points that are adjacent to one another (vertically or horizontally). So for example the following points would contain 2 parcels of land, a 1x3 parcel, and a 1x1 parcel.
 
-## Requirements
+  ```text
+  0,0
+  0,1
+  0,2
+  2,0
+  ```
 
-- We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency such as O(n) solutions.
-- We'd like to see clean, readable, understandable code with tests.
-- We'd like to see a README as a point of entry to the problem providing us with any context or details your deem helpful
+- Given a random set of points, we'd like to know:
+  - How many parcels of land there are
+  - The perimeter of each parcel
 
-## Extending The Problem
+### Parcel Perimeters
 
-- There's no expectation to solve this part in code (but feel free to should you wish).
-- We'd like to understand your thought process for calculating the perimeter of a parcel of land in relation to the above solution.
 - Assume parcels can't have holes (ie no donut style parcels) and diagonals are not included as part of the perimeter
-- The the below examples:
+- Here are some examples with the size of perimeter:
+
   - a) has a perimeter of 4 (ie 1 x 4 sides)
   - b) has a perimeter of 8 (ie 2 x 4 sides)
   - c) has a permiter of 12 (ie 3 x 4 sides)
   - d) has 12 (ie 3 + 2 + 1 + 1 + 1 + 1 + 1 + 2)
 
-```text
-a)       b)         c)           d)
-0 0 0    0 0 0 0    0 0 0 0 0    0 0 0 0 0
-0 1 0    0 1 1 0    0 1 1 1 0    0 1 1 1 0
-0 0 0    0 1 1 0    0 1 1 1 0    0 1 0 1 0
-         0 0 0 0    0 1 1 1 0    0 0 0 0 0
-                    0 0 0 0 0
-```
+    ```text
+    a)   b)    c)     d)
+    □    □□    □□□    □□□
+         □□    □□□    □ □
+               □□□
+    ```
+
+## Requirements
+
+- A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` and returns an array `number[]` of parcels, each array entry representing the permimeter for a parcel.
+- We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency such as O(n) solutions.
+- We'd like to see clean, readable, understandable code with tests.
+- We'd like to see a README as a point of entry to the problem providing us with any context or details your deem helpful

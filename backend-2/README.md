@@ -93,7 +93,8 @@ We'd like to see a README as a point of entry to the problem providing us with a
 ## Bonus considerations
 
 Company relationships can be messy - one company may have shared corporate ownership, with the parent companies possibly appearing in multiple places in the tree.
-Somewhat surprisingly there can even been cycles within relations, with two companies owning part of each other (although this is rare).
+Somewhat surprisingly there can even been cycles within relations, with two companies owning part of each other (although this is rare). Note that the sample company relations do not have these
+complications, but you are welcome to modify the sample data if you want to take the task closer to the real-world problem.
 
 Most end-users are interested in only specific regions within England or Wales. Assuming we have data about the location of each land parcel, how would you
 extend the above task to provide information that is valuable on the local level?

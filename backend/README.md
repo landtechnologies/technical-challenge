@@ -16,15 +16,16 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 ## The Problem
 
-- We render parcels of land on a map
-- This is done by rendering points provided as `x,y` coordinates via an array in the form of:
+- We render squares of land on a map
+- Squares are provided as an array of `x,y` points:
 
   ```text
   ["x1,y1", "x2,y2"]
   ```
 
-- Where `0 <= x < 100` and `0 <= y < 100`
-- A parcel of land is `>=1` points that are adjacent to one another (vertically or horizontally). So for example the following points would contain 2 parcels of land, a 1x3 parcel, and a 1x1 parcel.
+- Where `x` and `y` are integers, with `0 <= x < 100` and `0 <= y < 100`.
+
+- A parcel of land is `>=1` squares that are adjacent to one another (vertically or horizontally). So for example the following squares would contain 2 parcels of land, a 1x3 parcel, and a 1x1 parcel.
 
   ```text
   0,0
@@ -32,6 +33,8 @@ There is no restriction on the technology stack you choose to use, however bear 
   0,2
   2,0
   ```
+
+  <img  alt="diagram with 1x3 and 1x1 parcels" src="/backend/diagram.png" height=200>
 
 - Given a random set of points, we'd like to know:
   - How many parcels of land there are
@@ -56,7 +59,8 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 ## Requirements
 
-- A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` of `x,y` points and returns an array `number[]` of parcels, each array entry representing the permimeter for a parcel.
+- A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` of `x,y` points
+  and returns an array `number[]`, with the i'th entry in the representing the permimeter for the i'th parcel.
 - Feel free to improve the signature's understandability / readability in terms of types but try to retain the underlying concept of the signature.
 - We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency (big O notation).
 - We'd like to see clean, readable, understandable code with tests.

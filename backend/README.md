@@ -2,7 +2,7 @@
 
 ## Guidelines
 
-- Aim to spend **no more than 2 hours** on the challenge. We are wary of your personal time and account for this. We would rather see de-scoping and reasoning than hours of extra work!
+- Aim to spend **no more than 2 hours** on the challenge. We are wary of your personal time and account for this. If you feel there's possibility to de-scope please feel free to do so (and get in touch if you're in doubt: engineering@land.tech)
 - Our [Engineering Principles](https://engineering.land.tech/principles)... to give context as to how we work
 - We value simplicity... "less is more"
 - We value elegant solutions and clean code
@@ -40,15 +40,16 @@ There is no restriction on the technology stack you choose to use, however bear 
   - How many parcels of land there are
   - The perimeter of each parcel
 
-### Parcel Perimeters
+### Parcel Number Of Sides
 
+- We'd like to know the number of sides that a parcel (collection of squares) has
 - Assume parcels can't have holes (ie no donut style parcels) and diagonals are not included as part of the perimeter
-- Here are some examples with the size of perimeter:
+- Here are some examples with the number of sides:
 
-  - a) has a perimeter of 4 (ie 1 x 4 sides)
-  - b) has a perimeter of 8 (ie 2 x 4 sides)
-  - c) has a permiter of 12 (ie 3 x 4 sides)
-  - d) has 12 (ie 3 + 2 + 1 + 1 + 1 + 1 + 1 + 2)
+  - a) has 4 sides (ie 1 x 4)
+  - b) has 8 sides (ie 2 x 4)
+  - c) has 12 sides (ie 3 x 4)
+  - d) has 12 sides (ie 3 + 2 + 1 + 1 + 1 + 1 + 1 + 2)
 
     ```text
     a)   b)    c)     d)
@@ -60,7 +61,7 @@ There is no restriction on the technology stack you choose to use, however bear 
 ## Requirements
 
 - A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` of `x,y` points
-  and returns an array `number[]`, with the i'th entry in the representing the permimeter for the i'th parcel.
+  and returns an array `number[]`, with the n'th entry in the representing the permimeter for the n'th parcel.
 - Feel free to improve the signature's understandability / readability in terms of types but try to retain the underlying concept of the signature.
 - We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency (big O notation).
 - We'd like to see clean, readable, understandable code with tests.

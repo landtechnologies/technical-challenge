@@ -39,6 +39,7 @@ There is no restriction on the technology stack you choose to use, however bear 
 - Given a random set of points, we'd like to know:
   - How many parcels of land there are
   - The number of sides each parcel has
+  - Feel free to work with more complex parcels than the examples given
 
 ### Parcel Number Of Sides
 

@@ -42,7 +42,7 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 ### Parcel Number Of Sides
 
-- Assume parcels can't have holes (ie no donut style parcels) and diagonals are not included as part of the perimeter
+- Assume parcels can't have holes (ie no donut style parcels)
 - Here are some examples with the number of sides:
 
   <img  alt="diagram with 1x3 and 1x1 parcels" src="/backend/diagram.png" height=200>

@@ -38,25 +38,17 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 - Given a random set of points, we'd like to know:
   - How many parcels of land there are
-  - The perimeter of each parcel
+  - The number of sides each parcel has
 
 ### Parcel Number Of Sides
 
-- We'd like to know the number of sides that a parcel (collection of squares) has
 - Assume parcels can't have holes (ie no donut style parcels) and diagonals are not included as part of the perimeter
 - Here are some examples with the number of sides:
 
-  - a) has 4 sides (ie 1 x 4)
-  - b) has 8 sides (ie 2 x 4)
-  - c) has 12 sides (ie 3 x 4)
-  - d) has 12 sides (ie 3 + 2 + 1 + 1 + 1 + 1 + 1 + 2)
-
-    ```text
-    a)   b)    c)     d)
-    □    □□    □□□    □□□
-         □□    □□□    □ □
-               □□□
-    ```
+  <img  alt="diagram with 1x3 and 1x1 parcels" src="/backend/diagram.png" height=200>
+  
+  - 1x3 parcel has 8 sides
+  - 1x1 parcel has 4 sides
 
 ## Requirements
 

@@ -53,7 +53,7 @@ There is no restriction on the technology stack you choose to use, however bear 
 
 ## Requirements
 
-- A method signature of `render(points: string[]) => number[]`, ie a function that takes an array `string[]` of `x,y` points
+- A method signature of `computeParcelPerimiters(points: string[]) => number[]`, ie a function that takes an array `string[]` of `x,y` points
   and returns an array `number[]`, with the n'th entry in the representing the permimeter for the n'th parcel.
 - Feel free to improve the signature's understandability / readability in terms of types but try to retain the underlying concept of the signature.
 - We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency (big O notation).

@@ -2,17 +2,23 @@
 
 ## Guidelines
 
-- Aim to spend **no more than 3 hours** on the challenge. We are wary of your personal time and account for this. We would rather see de-scoping and reasoning than hours of extra work!
-- Our [Engineering Principles](https://engineering.land.tech/principles)... to give context as to how we work
-- We value simplicity... "less is more"
-- We value elegant solutions and clean code
-- We **_really_** value tests (especially test-driven code as it is central to how we work!)
-- We value clean, concise, understandable documentation (a `README.md` is sufficient) as part of communication and an entry point to the solution. Remember "less is more".
-- We would like to be able to run the code as if developing locally
-- Assume we may not have certain dependencies installed on our laptops!
-- If you have any questions please get in touch! engineering@land.tech
+Spend a **maximum of 3 hours** on this challenge.
 
-There is no restriction on the technology stack you choose to use, however bear in mind that we use mostly work in node.js, python, shell and docker. If in doubt, keep it simple - we like simplicity!
+Your time is valuable, so DO focus on:
+
+- Demonstrating clarity of thought.
+- Demonstrating mastery of your chosen stack, where relevant.
+- Making sure we can easily run, test, and understand your solution.
+
+DO NOT:
+
+- Create an entire production-ready enterprise-grade application.
+
+You can use any tech stack, but for reference we use node.js, python, shell and docker.
+
+You may wish to have a quick read of [Our Engineering Principles](https://engineering.land.tech/principles) and [Our Tech Radar](https://engineering.land.tech/radar/).
+
+**If in doubt, keep it simple - we like simplicity!**
 
 ## Background
 
@@ -58,6 +64,8 @@ hundreds of thousands of companies, and company structures that contain a couple
 You can take this task in any direction you believe aligns with the end-user need (and demonstrates your abilities!).
 We are happy for you to make assumptions where needed, but be explicit about this. You can also get in touch with us if you wish - engineering@land.tech.
 
+_Don't forget to re-read the Guidelines at the top of the page!_
+
 ## Suggested approach
 
 We suggest creating a cli tool that accepts a company id and prints out a partially-expanded tree like this:
@@ -86,9 +94,7 @@ The next step might be to support expanding parts of the tree. For example:
 
 We're not overly obsessed with optimisation, but we do appreciate thoughtful choices (and reasoning / trade-offs) of data structures, iteration vs recursion, and efficiency (big O notation).
 
-We'd like to see clean, readable, understandable code with tests.
-
-We'd like to see a README as a point of entry to the problem providing us with any context or details your deem helpful.
+_Don't forget to re-read the Guidelines at the top of the page!_
 
 ## Bonus considerations
 

@@ -18,7 +18,7 @@ We are NOT LOOKING FOR:
 
 You can use any tech stack, but for reference we use node.js, python, shell and docker.
 
-You may wish to have a quick read of [Our Engineering Principles](https://engineering.land.tech/principles) and [Our Tech Radar](https://engineering.land.tech/radar/).
+You may wish to have a (very quick) read of [Our Engineering Principles](https://engineering.land.tech/principles) and [Our Tech Radar](https://engineering.land.tech/radar/).
 
 Particularly in this tech-challenge scenario, **less is more**.
 

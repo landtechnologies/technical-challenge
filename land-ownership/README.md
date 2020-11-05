@@ -10,7 +10,7 @@ Your time is valuable, so DO FOCUS ON:
 - Demonstrating mastery of your chosen language.
 - Making sure your solution is easy to run, easy to understand, and has a well-tested core.
 
-We DON'T CARE about:
+We are NOT LOOKING FOR:
 
 - Peripheral configuration/boilerplate code.
 - Production-readiness.

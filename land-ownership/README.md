@@ -12,7 +12,7 @@ Your time is valuable, so DO FOCUS ON:
 
 We are NOT LOOKING FOR:
 
-- Peripheral configuration/boilerplate code.
+- Extensive configuration/boilerplate code.
 - Production-readiness.
 - Enterprise-readiness.
 

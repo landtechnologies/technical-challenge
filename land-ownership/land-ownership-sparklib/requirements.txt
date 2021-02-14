@@ -1,0 +1,5 @@
+pytest
+databricks-connect==6.4.1
+pylint==2.3.1
+wheel
+graphframes==0.6

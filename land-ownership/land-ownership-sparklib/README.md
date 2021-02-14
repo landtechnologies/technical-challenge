@@ -11,7 +11,7 @@ Steps:
 which nodes are connected based on company relations
 3. We then filter based on the path length to only have the required nodes in the final dataframe
 4. We return this dataframe to the calling method.
-5. This can be prodictionised in Databricks by using the below CI/CD method to install the library on the cluster
+5. This can be scaled in Databricks by using the below CI/CD method to install the library on the cluster
 6. The library can then be used interactively / called by other services like ADF i.e. Azure Datafactory or other cloud services.
 
 # Developing with Databricks-Connect & Azure DevOps

@@ -122,12 +122,12 @@ def get_hierarchy_landownership(company_id: str):
     returns:
     dataframe of ownership and company relations results.
     """
-    # read company relations
+    # read company relations path is hardcoded for now
     df_cr = extract_company_relations(
         "dbfs:/FileStore/tables/company_relations.txt"
         )
 
-    # read landownership
+    # read landownership path is hardcoded for now
     df_lo = extract_land_ownership(
         "dbfs:/FileStore/tables/land_ownership.txt"
         )

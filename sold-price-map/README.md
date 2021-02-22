@@ -1,3 +1,5 @@
+_Please do not publish your solution publicly (especially if you fork this repository)._
+
 # Challenge: Sold Price Map
 
 ## Guidelines

@@ -1,5 +1,7 @@
 # LandTech Technical Challenges
 
+_Please do not publish your solution publicly (especially if you fork this repository)._
+
 ## Challenges
 
 - **Full Stack** - [Sold Price Map](sold-price-map/README.md)

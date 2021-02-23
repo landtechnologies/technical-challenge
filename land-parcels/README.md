@@ -1,3 +1,5 @@
+_Please do not publish your solution publicly (especially if you fork this repository)._
+
 # Challenge: Land Parcels
 
 ## Guidelines
@@ -47,7 +49,7 @@ There is no restriction on the technology stack you choose to use, however bear 
 - Here are some examples with the number of sides:
 
   <img  alt="diagram with 1x3 and 1x1 parcels" src="/land-parcels/diagram.png" height=200>
-  
+
   - 1x3 parcel has 8 sides
   - 1x1 parcel has 4 sides
 

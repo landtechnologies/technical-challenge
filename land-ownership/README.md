@@ -10,7 +10,7 @@ _Please do not publish your solution publicly (especially if you fork this repos
 4. Keep your solution simple, making effective use of your chosen language.
 5. Ensure it's easy for us to run your solution.
 6. Tests are great (we love them), but be wary of time constraints.
-7. We're not looking for production-ready enterprise-scale code.
+7. We're not looking for production-ready enterprise-scale code (no databases or servers please).
 
 ## Background
 
@@ -47,18 +47,18 @@ and `land_ownership.csv`:
 
 Our real-world end-users have the following requests:
 
-(a) For a particular parcel of land, tell me which company ultimately owns the land.  
-(b) For a given company, tell me how much land that company owns in total.  
-(c) Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.  
+ - For a particular parcel of land, tell me which company ultimately owns the land.  
+ - For a given company, tell me how much land that company owns in total.  
+ - Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.  
 
 However this is a tech-challenge not the real world, so we'd just like to see a really basic script backed by in-memory data
-structures (no servers or databases please).
-
-It's ok to make assumptions, but do tell us why you went in a particular direction (you can also email us - engineering@land.tech).
+structures.
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 
-Loading CSVs into memory isn't terribly exciting, so we suggest just copy-pasting one of these snippets and then moving on to the core of the problem:
+## Some Useful Code Snippets
+
+We're not that interested in how you load data from CSV or what the interface to your script is like. You can copy and paste these examples (although you're on your own if not using node or pythong):
 
 **Node**
 
@@ -79,6 +79,13 @@ fs.readFileSync("./land_ownership.csv", "utf8")
     const [landId, companyId] = line.split(",");
     // ... do something with the data
   });
+  
+... 
+
+// Hey LandTech, uncomment and modify one of these examples..
+// printUltimateOwner(<land_id>)
+// printTotalOwnership(<company_id>)
+// printTree(<company_id>, <tree rendering options>)
 ```
 
 **Python**
@@ -95,22 +102,18 @@ with open("./land_ownership.csv") as csv:
   for line in csv:
     landId, companyId = line.split(",")
     # ... do something with the data
+    
+...
+
+# Hey LandTech, uncomment and modify one of these examples..
+# printUltimateOwner(<land_id>)
+# printTotalOwnership(<company_id>)
+# printTree(<company_id>, <tree rendering options>)
 ```
+
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 
- You can build a proper command line interface to your script if you like, but it's absolutely ok to simply hard 
- code one or more examples at the bottom of your code...
- 
-```javascript
-... 
-
-// Hey LandTech, uncomment and modify one of these examples..
-// printUltimateOwner(<land_id>)
-// printTotalOwnership(<company_id>)
-// printTree(<company_id>, <tree rendering options>)
-```
- 
 ## Bonus Considerations
 
 If you have time, we would be interested in your thoughts (just thoughts) on the real-world scenario. Note that ultimately the solution would need to handle a few tens of requests per second, work with tens of millions of land parcels, hundreds of thousands of companies, and company structures that contain a couple of thousand constituent legal entities.

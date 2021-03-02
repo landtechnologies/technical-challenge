@@ -58,7 +58,7 @@ _Don't forget to re-read the Guidelines at the top of the page!_
 
 ## Some Useful Code Snippets
 
-We're not that interested in how you load data from CSV or what the interface to your script is like. You can copy and paste these examples (although you're on your own if not using node or pythong):
+We're not that interested in how you load data from CSV or what the interface to your script is like. You can copy and paste these examples (although you're on your own if not using node or python):
 
 **Node**
 
@@ -114,16 +114,3 @@ with open("./land_ownership.csv") as csv:
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 
-## Bonus Considerations
-
-If you have time, we would be interested in your thoughts (just thoughts) on the real-world scenario. Note that ultimately the solution would need to handle a few tens of requests per second, work with tens of millions of land parcels, hundreds of thousands of companies, and company structures that contain a couple of thousand constituent legal entities.
-
-Also, the real-world data is messier than the sample data here. You might like to consider one or more of the following real-world cases:
-
-- company X is owned 50% by company Y and 50% by company Z.
-- company X is owned 50% by each of Y and Z, but Z also owns 25% of company Y.
-- company X is 25% owned by company Y, but company Y is 25% owned by company X (this does happen!)
-
-You could also think about other features that the end-user might need. For example, end users might want to know about ownership within a very specific region of the country rather than the whole UK.
-
-_Don't forget to re-read the Guidelines at the top of the page!_

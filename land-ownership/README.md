@@ -5,12 +5,11 @@ _Please do not publish your solution publicly (especially if you fork this repos
 ## Guidelines
 
 1. Spend a **maximum of 2 hours** on this challenge - use your time wisely, we know it's valuable!
-2. Ideally use javascript or python as we can run that kind of code easily. For other languages, please wrap your solution with Docker.
+2. Ideally use javascript or python as we can run that kind of code fairly easily. For other languages, please wrap your solution with Docker.
 3. Tell us about key decisions you made and what you'd do if you had more time.
 4. Keep your solution simple, making effective use of your chosen language.
-5. Ensure it's easy for us to run your solution.
-6. Tests are great (we love them), but be wary of time constraints.
-7. We're not looking for production-ready enterprise-scale code (no databases or servers please).
+5. Tests are great (we love them), but be wary of time constraints.
+6. We're not looking for production-ready enterprise-scale code (no databases or servers please).
 
 ## Background
 

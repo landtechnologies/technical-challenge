@@ -59,9 +59,9 @@ and `land_ownership.csv`:
 
 Our real-world end-users have the following requests:
 
-(a) For a particular parcel of land, tell me which company ultimately owns the land.
-(b) For a given company, tell me how much land that company owns in total.
-(c) Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.
+(a) For a particular parcel of land, tell me which company ultimately owns the land.  
+(b) For a given company, tell me how much land that company owns in total.  
+(c) Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.  
 
 However this is a tech-challenge not the real world, so we'd just like to see a really basic script backed by in-memory data
 structures (no servers or databases please).

@@ -4,25 +4,13 @@ _Please do not publish your solution publicly (especially if you fork this repos
 
 ## Guidelines
 
-Spend a **maximum of 2 hours** on this challenge.
-
-Your time is valuable, so DO FOCUS ON:
-
-- Demonstrating clarity of thought.
-- Demonstrating mastery of your chosen language.
-- Making sure your solution is easy to run, easy to understand, and the most important logic is well-tested.
-
-We are NOT LOOKING FOR:
-
-- Extensive configuration/boilerplate code.
-- Production-readiness.
-- Enterprise-readiness.
-
-You can use any tech stack, but we're best setup to run node.js or python submissions. If you use another language ideally wrap your solution with docker.
-
-You may wish to have a (very quick) read of [Our Engineering Principles](https://engineering.land.tech/principles) and [Our Tech Radar](https://engineering.land.tech/radar/).
-
-Particularly in this tech-challenge scenario, **less is more**.
+1. Spend a **maximum of 2 hours** on this challenge - use your time wisely, we know it's valuable!
+2. Ideally use javascript or python as we can run that kind of code easily. For other languages, please wrap your solution with Docker.
+3. Tell us about key decisions you made and what you'd do if you had more time.
+4. Keep your solution simple, making effective use of your chosen language.
+5. Ensure it's easy for us to run your solution.
+6. Tests are great (we love them), but be wary of time constraints.
+7. We're not looking for production-ready enterprise-scale code.
 
 ## Background
 

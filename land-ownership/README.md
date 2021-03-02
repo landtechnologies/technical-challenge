@@ -4,13 +4,13 @@ _Please do not publish your solution publicly (especially if you fork this repos
 
 ## Guidelines
 
-Spend a **maximum of 3 hours** on this challenge.
+Spend a **maximum of 2 hours** on this challenge.
 
 Your time is valuable, so DO FOCUS ON:
 
 - Demonstrating clarity of thought.
 - Demonstrating mastery of your chosen language.
-- Making sure your solution is easy to run, easy to understand, and has a well-tested core.
+- Making sure your solution is easy to run, easy to understand, and the most important logic is well-tested.
 
 We are NOT LOOKING FOR:
 
@@ -18,7 +18,7 @@ We are NOT LOOKING FOR:
 - Production-readiness.
 - Enterprise-readiness.
 
-You can use any tech stack, but for reference we use node.js, python, shell and docker.
+You can use any tech stack, but we're best setup to run node.js or python submissions. If you use another language ideally wrap your solution with docker.
 
 You may wish to have a (very quick) read of [Our Engineering Principles](https://engineering.land.tech/principles) and [Our Tech Radar](https://engineering.land.tech/radar/).
 
@@ -57,39 +57,16 @@ and `land_ownership.csv`:
 
 ## Task
 
-Our real-world end-users want a tool to visualize the corporate structure and quantity of land ownership for any given land-owning company.
+Our real-world end-users have the following requests:
 
-However this is a tech-challenge not the real world, so we'd just like to see a basic command-line interface backed by in-memory data structures (no servers or databases please). Also, while we are happy for you to show off your creativity in terms of addressing the end-user need, we would at least like to see the total (direct+indirect) amount of land owned by the companies of interest.
+(a) For a particular parcel of land, tell me which company ultimately owns the land.
+(b) For a given company, tell me how much land that company owns in total.
+(c) Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.
+
+However this is a tech-challenge not the real world, so we'd just like to see a really basic script backed by in-memory data
+structures (no servers or databases please).
 
 It's ok to make assumptions, but do tell us why you went in a particular direction (you can also email us - engineering@land.tech).
-
-_Don't forget to re-read the Guidelines at the top of the page!_
-
-## Suggested Approach
-
-We suggest that the cli tool accepts a company id and prints out a partially-expanded tree like this:
-
-```
-> landtree --mode=from_root C45353
-C4012; J Sainsbury PLC; owner of 400 land parcels
-  | -  C12332; Sainsbury London; owner of 100 land parcels
-  | -  C71299; Jacksons Stores Limited; owner of 14 land parcels
-  | | - C45353; Jacksons Stores Manchester Limited; owner of 2 land parcels ***
-  | | - C91123; Jacksons Stores Coventry Limited; owner of 1 land parcel
-  | - C555123; Best products; owner of 13 land parcels
-  | - C712933; 24 Hour Food Local Norfolk; owner of 1 land parcels
-```
-
-Note how we specify `--mode=from_root`, which provides the tree "from the root" down to the company in question, leaving other areas of the tree not expanded.
-The "owner of X land parcels" bit states the total count of all parcels owned by the company and its sub companies.
-
-The next step might be to support expanding parts of the tree. For example:
-
-```
-> landtree --mode=expand C555123
-| - C623354; Best products Children Ltd; owner of 2 land parcels
-| - C555123; Best products Metro; owner of 9 land parcels
-```
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 
@@ -134,6 +111,18 @@ with open("./land_ownership.csv") as csv:
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 
+ You can build a proper command line interface to your script if you like, but it's absolutely ok to simply hard 
+ code one or more examples at the bottom of your code...
+ 
+```javascript
+... 
+
+// Hey LandTech, uncomment and modify one of these examples..
+// printUltimateOwner(<land_id>)
+// printTotalOwnership(<company_id>)
+// printTree(<company_id>, <tree rendering options>)
+```
+ 
 ## Bonus Considerations
 
 If you have time, we would be interested in your thoughts (just thoughts) on the real-world scenario. Note that ultimately the solution would need to handle a few tens of requests per second, work with tens of millions of land parcels, hundreds of thousands of companies, and company structures that contain a couple of thousand constituent legal entities.

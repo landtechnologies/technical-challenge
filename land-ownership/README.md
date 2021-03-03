@@ -4,25 +4,12 @@ _Please do not publish your solution publicly (especially if you fork this repos
 
 ## Guidelines
 
-Spend a **maximum of 3 hours** on this challenge.
-
-Your time is valuable, so DO FOCUS ON:
-
-- Demonstrating clarity of thought.
-- Demonstrating mastery of your chosen language.
-- Making sure your solution is easy to run, easy to understand, and has a well-tested core.
-
-We are NOT LOOKING FOR:
-
-- Extensive configuration/boilerplate code.
-- Production-readiness.
-- Enterprise-readiness.
-
-You can use any tech stack, but for reference we use node.js, python, shell and docker.
-
-You may wish to have a (very quick) read of [Our Engineering Principles](https://engineering.land.tech/principles) and [Our Tech Radar](https://engineering.land.tech/radar/).
-
-Particularly in this tech-challenge scenario, **less is more**.
+1. We expect you to spend **around 2 hours** on this challenge - use your time wisely, we know it's valuable!
+2. Ideally use javascript or python as we can run that kind of code fairly easily. For other languages, please wrap your solution with Docker.
+3. Tell us about key decisions you made and what you'd do if you had more time.
+4. Keep your solution simple, making effective use of your chosen language.
+5. Do provide some tests, especially around the most important logic.
+6. We're not looking for production-ready enterprise-scale code (no databases or servers please).
 
 ## Background
 
@@ -57,43 +44,20 @@ and `land_ownership.csv`:
 
 ## Task
 
-Our real-world end-users want a tool to visualize the corporate structure and quantity of land ownership for any given land-owning company.
+Our real-world end-users have the following requests:
 
-However this is a tech-challenge not the real world, so we'd just like to see a basic command-line interface backed by in-memory data structures (no servers or databases please). Also, while we are happy for you to show off your creativity in terms of addressing the end-user need, we would at least like to see the total (direct+indirect) amount of land owned by the companies of interest.
+- For a particular parcel of land, tell me which company ultimately owns the land.
+- For a given company, tell me how much land that company owns in total.
+- Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.
 
-It's ok to make assumptions, but do tell us why you went in a particular direction (you can also email us - engineering@land.tech).
-
-_Don't forget to re-read the Guidelines at the top of the page!_
-
-## Suggested Approach
-
-We suggest that the cli tool accepts a company id and prints out a partially-expanded tree like this:
-
-```
-> landtree --mode=from_root C45353
-C4012; J Sainsbury PLC; owner of 400 land parcels
-  | -  C12332; Sainsbury London; owner of 100 land parcels
-  | -  C71299; Jacksons Stores Limited; owner of 14 land parcels
-  | | - C45353; Jacksons Stores Manchester Limited; owner of 2 land parcels ***
-  | | - C91123; Jacksons Stores Coventry Limited; owner of 1 land parcel
-  | - C555123; Best products; owner of 13 land parcels
-  | - C712933; 24 Hour Food Local Norfolk; owner of 1 land parcels
-```
-
-Note how we specify `--mode=from_root`, which provides the tree "from the root" down to the company in question, leaving other areas of the tree not expanded.
-The "owner of X land parcels" bit states the total count of all parcels owned by the company and its sub companies.
-
-The next step might be to support expanding parts of the tree. For example:
-
-```
-> landtree --mode=expand C555123
-| - C623354; Best products Children Ltd; owner of 2 land parcels
-| - C555123; Best products Metro; owner of 9 land parcels
-```
+However this is a tech-challenge not the real world, so we'd just like to see a really basic script backed by in-memory data
+structures.
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 
-Loading CSVs into memory isn't terribly exciting, so we suggest just copy-pasting one of these snippets and then moving on to the core of the problem:
+## Some Useful Code Snippets
+
+We're not that interested in how you load data from CSV or what the interface to your script is like. You can copy and paste these examples (although you're on your own if not using node or python):
 
 **Node**
 
@@ -114,6 +78,12 @@ fs.readFileSync("./land_ownership.csv", "utf8")
     const [landId, companyId] = line.split(",");
     // ... do something with the data
   });
+
+...
+
+// Hey LandTech, uncomment and modify one of these examples...
+// doSomething(somethingId, somethingOptions)
+// doSomethingElse()
 ```
 
 **Python**
@@ -130,20 +100,12 @@ with open("./land_ownership.csv") as csv:
   for line in csv:
     landId, companyId = line.split(",")
     # ... do something with the data
+
+...
+
+# Hey LandTech, uncomment and modify one of these examples..
+# doSomething(somethingId, somethingOptions)
+# doSomethingElse()
 ```
-
-_Don't forget to re-read the Guidelines at the top of the page!_
-
-## Bonus Considerations
-
-If you have time, we would be interested in your thoughts (just thoughts) on the real-world scenario. Note that ultimately the solution would need to handle a few tens of requests per second, work with tens of millions of land parcels, hundreds of thousands of companies, and company structures that contain a couple of thousand constituent legal entities.
-
-Also, the real-world data is messier than the sample data here. You might like to consider one or more of the following real-world cases:
-
-- company X is owned 50% by company Y and 50% by company Z.
-- company X is owned 50% by each of Y and Z, but Z also owns 25% of company Y.
-- company X is 25% owned by company Y, but company Y is 25% owned by company X (this does happen!)
-
-You could also think about other features that the end-user might need. For example, end users might want to know about ownership within a very specific region of the country rather than the whole UK.
 
 _Don't forget to re-read the Guidelines at the top of the page!_

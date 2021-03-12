@@ -4,12 +4,12 @@ _Please do not publish your solution publicly (especially if you fork this repos
 
 ## Guidelines
 
-1. We expect you to spend **around 2 hours** on this challenge - use your time wisely, we know it's valuable!
+1. We expect you to spend **around 1 hour** on this challenge - use your time wisely, we know it's valuable!
 2. Ideally use javascript or python as we can run that kind of code fairly easily. For other languages, please wrap your solution with Docker.
 3. Tell us about key decisions you made and what you'd do if you had more time.
 4. Keep your solution simple, making effective use of your chosen language.
-5. Do provide some tests, especially around the most important logic.
-6. We're not looking for production-ready enterprise-scale code (no databases or servers please).
+5. You do not need to write tests at this point, but we may ask you to add some during the interview.
+6. We're not looking for production-ready enterprise-scale code (no databases or servers please, and keep boilerplate to a minimum).
 
 ## Background
 
@@ -48,7 +48,6 @@ Our real-world end-users have the following requests:
 
 - For a particular parcel of land, tell me which company ultimately owns the land.
 - For a given company, tell me how much land that company owns in total.
-- Ideally, allow me to visualize the data in more depth, e.g. view parts of a company tree, with information on land ownership for each company.
 
 However this is a tech-challenge not the real world, so we'd just like to see a really basic script backed by in-memory data
 structures.

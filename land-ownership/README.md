@@ -46,7 +46,7 @@ and `land_ownership.csv`:
 
 Our real-world end-users have the following request:
 
-- For a given company, tell me how much land that company owns in total (i.e. directly and indirectly).
+- For a given company, tell me how much land that company owns in total, both directly and indirectly, i.e. **land owned not only by the company itself, but also the land owned by companies that this company owns, and any land owned by companies that those sub-companies own, and so on…**
 
 As this is a tech-challenge not the real world, we'd just like to see a really basic script backed by in-memory data
 structures.

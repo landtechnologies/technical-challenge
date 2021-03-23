@@ -25,26 +25,28 @@ parcels _directly_.
 
 ## Available Data
 
-We have provided two files of dummy data in this directory.
+We have provided two files of dummy data in this directory. Together they describe how each parcel of
+land is owned by a company, and how (some) companies are in turn owned by other companies.
 
-`company_relations.csv`:
+`land_ownership.csv`:
 
-| company id | name                               | parent |
-| ---------- | ---------------------------------- | ------ |
-| C2013      | Acme Land Ltd                      |        |
-| C71299     | Jacksons Stores Limited            | C4012  |
-| C4012      | J Sainsbury PLC                    |        |
-| C45353     | Jacksons Stores Manchester Limited | C71299 |
-| ...        |                                    |        |
+| land_id       | company_id    |
+| ------------- | ------------- |
+| T100018863440 | R590980645905 |
+| T100030485625 | C498567266942 |
+| T100073722185 | R297805899175 |
+| T100075985035 | R652026353427 |
+| ...           |               |
 
-and `land_ownership.csv`:
+and `company_relations.csv`:
 
-| land parcel id | owning company id |
-| -------------- | ----------------- |
-| T54343         | C4012             |
-| T8871          | C4012             |
-| T12130         | C2013             |
-| ...            |                   |
+| company_id    | name                            | parent        |
+| ------------- | ------------------------------- | ------------- |
+| C100517359149 | Leseetan Midlands Group Limited | R764915829891 |
+| C101307938502 | Cheales lesitech Plc            | S100240634395 |
+| C104936104    | Resonestr Associated UK Plc     | C622523283889 |
+| C106019213972 | Resunich tanalli & Co Ltd       | R185419277893 |
+| ...           |                                 |               |
 
 ## Task
 

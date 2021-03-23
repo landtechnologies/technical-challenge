@@ -1,4 +1,8 @@
 company_id,name,parent
+C01,Amazing England,C04
+C02,Amazing Wales,C04
+C03,Amazing Distribution England,C01
+C04,Amazing Supermarket UK PLC,
 C100517359149,Leseetan Midlands Group Limited,R764915829891
 C101307938502,Cheales lesitech Plc,S100240634395
 C104936104,Resonestr Associated UK Plc,C622523283889

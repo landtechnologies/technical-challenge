@@ -13,11 +13,15 @@ _Please do not publish your solution publicly (especially if you fork this repos
 
 ## Background
 
-In the UK, most land is owned by private individuals, but plenty of land is owned by companies. Here we are interested specifically in land-owning companies and their land.
+In the UK, most land is owned by private individuals, but plenty of land is owned by companies. Here we are
+interested specifically in land-owning companies and their land.
 
-Most land-owning companies are small and simple, but others exhibit complex legal structures. For example, Sainsburys (the supermarket) owns several thousand parcels of
-land in England and Wales, but its top-level legal entity, "J Sainsbury PLC", only owns about 40 parcels directly, all the other land is owned by sub-companies and sub-sub-companies etc. These
-corporate structures arise from company mergers and acquisitions, as well as by design (for legal/financial reasons).
+Most land-owning companies are small and simple, but others exhibit complex legal structures as a result of
+company mergers and acquisitions, as well as by design (for legal/financial reasons).
+
+For example, Sainsburys (the supermarket) _indirectly_ owns several thousand parcels of land in the UK via
+sub-companies and sub-sub-companies. However its top-level legal entity, "J Sainsbury PLC", only owns about 40
+parcels _directly_.
 
 ## Available Data
 
@@ -46,10 +50,10 @@ and `land_ownership.csv`:
 
 Our real-world end-users have the following request:
 
-- For a given company, tell me how much land that company owns in total, both directly and indirectly, i.e. **land owned not only by the company itself, but also the land owned by companies that this company owns, and any land owned by companies that those sub-companies own, and so on…**
+**For a given company id, tell me how much land that company owns in total, both directly and indirectly.**
 
-As this is a tech-challenge not the real world, we'd just like to see a really basic script backed by in-memory data
-structures.
+As this is a tech-challenge not the real world, we'd just like to see a really basic script backed by
+in-memory data structures.
 
 _Don't forget to re-read the Guidelines at the top of the page!_
 

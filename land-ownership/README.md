@@ -19,9 +19,9 @@ interested specifically in land-owning companies and their land.
 Most land-owning companies are small and simple, but others exhibit complex legal structures as a result of
 company mergers and acquisitions, as well as by design (for legal/financial reasons).
 
-For example, Sainsburys (the supermarket) _indirectly_ owns several thousand parcels of land in the UK via
+For example, Sainsburys (the supermarket) _indirectly_ owns several thousand parcels of land in the UK through ownership of
 sub-companies and sub-sub-companies. However its top-level legal entity, "J Sainsbury PLC", only owns about 40
-parcels _directly_.
+parcels _directly_. Note - indirect ownership is one-way; these 40 parcels are _not_ indirectly owned by any sub-companies.
 
 ## Available Data
 

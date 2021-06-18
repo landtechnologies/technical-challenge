@@ -3,7 +3,6 @@
 - @dave-graham
 - @d1manson
 - @adammelin
-- @adammeli
 - @milesjpool
 - @rashid5
 - @peinutz
@@ -12,3 +11,4 @@
 - @whatsrupp
 - @alexedwardjones
 - @yogeshraja73
+- @sadams
